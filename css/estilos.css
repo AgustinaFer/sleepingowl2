@@ -1,0 +1,250 @@
+/* NAV BAR */
+
+@media (max-width: 575px) {
+    .nav-item {
+        font-size: 1.25em;
+    }
+
+}
+#loguito{
+width: 38%;
+}
+
+
+/* El siguiente !important es para pisar una propiedad del banner porque sino se ven en blanco */
+
+.carousel-indicators li{
+    background-color: #ffc107 !important;
+}
+
+/* info */
+
+#salud ul li {
+    padding-top: 180px;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.horario {
+    background: url(../img/ventana.png) no-repeat center 0px;
+    font-size: 1.5em;
+}
+
+.compu {
+    background: url(../img/computadora.png) no-repeat center 0px;
+    font-size: 1.5em;
+}
+
+
+.estres {
+    background: url(../img/pastilla.png) no-repeat center 0px;
+    font-size: 1.5em;
+}
+
+
+
+#videos{
+    margin-bottom: 5%;
+}
+
+
+/* CONCTACTO */
+
+
+
+/* FOOTER */
+
+#datos li a:hover {
+    color: #ffc738;
+}
+
+#agus{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer #social li {
+    display: inline-block;
+}
+
+footer ul li {
+    list-style: none;
+    font-weight: bold;
+}
+
+#social li a {
+    display: block;
+    margin: 0px 10px;
+    width: 39px;
+    height: 39px;
+    font-size: 0px;
+}
+
+#datos li a {
+    text-decoration: none;
+    color: white;
+}
+
+#facebook {
+    background: url(../img/facebook_small.png) no-repeat;
+}
+
+#instagram {
+    background: url(../img/instagram_small.png) no-repeat;
+}
+
+#twitter {
+    background: url(../img/twitter_small.png) no-repeat;
+}
+
+#facebook:hover {
+    background: url(../img/facebook_small_hover.png) no-repeat;
+}
+
+#instagram:hover {
+    background: url(../img/instagram_small_hover.png) no-repeat;
+}
+
+#twitter:hover {
+    background: url(../img/twitter_small_hover.png) no-repeat;
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #correcto div {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #correcto div {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    #correcto div {
+        width: 35%;
+    }
+}
+
+
+
+
+
+
+/*Productos*/ 
+  
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    font-size: 80%;
+    margin-bottom: 5%;
+  }
+
+  
+
+.sale-item {
+  display: flex;
+  flex-flow: column;
+  border-radius: 1rem;
+  padding: 2rem;
+
+  /* idea del gradiente:  https://cssgradient.io/ */
+  background-image: -webkit-linear-gradient(top, #AEDBF4 0%, #fff 100%), -webkit-linear-gradient(top, #AEDBF4 0%, #465387 100%);
+  background-image: -moz-linear-gradient(top, #AEDBF4 0%, #fff 100%), -moz-linear-gradient(top, #AEDBF4 0%, #465387 100%);
+  background-image: -o-linear-gradient(top,#AEDBF4 0%, #fff 100%), -o-linear-gradient(top, #AEDBF4 0%, #465387 100%);
+  background-image: linear-gradient(to bottom, #AEDBF4 0%, #fff 100%), linear-gradient(to bottom, #AEDBF4 0%, #465387 100%);
+}
+.sale-item > h1 {
+  margin: 1rem 1rem 0;
+  font-size: 1.8rem;
+}
+.sale-item > ul {
+  margin: 0 0 1rem;
+}
+.sale-item > p {
+  margin: 0.25em 1rem 1rem;
+}
+.sale-item > img {
+  order: -1;
+  align-self: center;
+}
+
+.sale-img{
+    width: 80%;
+    border-radius: 8px;
+}
+
+.precio{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #F19226;
+}
+
+.viejo{
+   font-size: 1rem;
+    color: #767676;
+    text-decoration:line-through; 
+    font-weight: normal;
+}
+/* Formulario 
+
+El fondo de esta sección lo saqué de esta pag de tramas: https://freefrontend.com/css-background-patterns/
+
+*/
+
+.formulario{
+    margin-bottom: 5%;
+     background-color: #DCEFFA;
+    background-size: 49px 53px;
+    background-image: radial-gradient(
+        transparent 28px,
+        #ffffff 28px,
+        #ffffff 32px,
+        transparent 32px);
+    padding: 5px;
+   
+}
+
+.prodform{
+    padding-top: 2%;
+}
+.telform{
+    padding-top: 2%;
+}
+.comenform{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+
+@media (max-width: 575px) {
+   .enviar {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.prodform {
+   
+    text-align: center;
+}
+
+.formulario{
+    margin-bottom: 5%;
+     background-color: #fadebd96;
+    background-size: 49px 53px;
+    background-image: radial-gradient(
+        transparent 28px,
+        #ffffff 28px,
+        #ffffff 32px,
+        transparent 32px);
+   
+}
+
+}
